@@ -82,6 +82,7 @@ const createChatLi = (message, className) => {
 async function ResponseToMessage()  {
         record = false;
         resultsBox.innerHTML = '';
+        timer.style.display = 'none';
         sentBtn.style.display = 'none';
         VoiceChat.style.display = 'block';
         resultsBox.style.height = "0";
